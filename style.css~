@@ -1,0 +1,12 @@
+.background{
+	background-image: url("10955519_1010920768935814_3570543558821452008_n.jpg");
+	background-size: 100%;
+}
+
+
+body{
+}
+.menu{
+	width:1000px;
+	height:100px;}
+
