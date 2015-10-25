@@ -9,4 +9,21 @@ body{
 .menu{
 	width:1000px;
 	height:100px;}
+h1 {
+    color: #009999;
+    text-align: center;
+}
+h2 {
+    color: #33CCCC;
+    text-align: center;
+}
+
+div{
+}
+li {
+    display: inline;
+    font-size: 20px;
+}
+
+
 

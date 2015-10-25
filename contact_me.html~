@@ -6,9 +6,10 @@
 <body class = "background" >
 <ul>
 <div id = "about_me" >
-	<li><a href="home.html">Home</a>
-	<li><a href="about_me.html">About Me</a>
-	<li><a href="contact_me.html">Contact Me</a>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="about_me.html">About Me</a></li>
+	<li><a href="contact_me.html">Contact Me</a></li>
+
 
 </ul>
 </div>
@@ -17,7 +18,6 @@
 <h2>	Want to contact me?	</h2>
 <p> My email address is : shaked3139@gmail.com </p>
 
-<img src="10955519_1010920768935814_3570543558821452008_n.jpg" width="650" height="500">
 </div>
 </body>
 </html>
