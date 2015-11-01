@@ -1,14 +1,14 @@
-.background{
+body{
 	background-image: url("10955519_1010920768935814_3570543558821452008_n.jpg");
 	background-size: 100%;
 }
 
 
-body{
-}
 .menu{
-	width:1000px;
-	height:100px;}
+	text-align:center;
+	height:40px;
+	width:100%;
+	background-color:#FFCC66;}
 h1 {
     color: #009999;
     text-align: center;

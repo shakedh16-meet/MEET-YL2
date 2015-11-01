@@ -1,11 +1,10 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
-<body class = "background" >
+<body>
 <ul>
-<div id = "about_me" >
+<div class = "about_me" >
 	<li><a href="home.html">Home</a></li>
 	<li><a href="about_me.html">About Me</a></li>
 	<li><a href="contact_me.html">Contact Me</a></li>
