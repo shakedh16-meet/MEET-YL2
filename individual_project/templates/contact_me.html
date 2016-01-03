@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<ul>
+<div class = "about_me" >
+	<li><a href="{{ url_for('home_page')}}">Home</a></li>
+	<li><a href="{{ url_for('about_me')}}">About Me</a></li>
+	<li><a href="{{ url_for('contact_me')}}">Contact Me</a></li>
+
+
+</ul>
+</div>
+<div align = "center">
+<h1>	Shaked Hadad	</h1>
+<h2>	Want to contact me?	</h2>
+<p> My email address is : shaked3139@gmail.com </p>
+<br>
+OR
+<br>
+<p>You can contact me here :
+
+
+<form method = 'POST' action = "{{ url_for('sent_page')}}" >
+<span id = "entername">
+please enter your name :
+</span>
+<input type = "name" name="name" id = "namebox" placeholder = "First and Last" >
+<span id = "enteremail">
+please enter your email :
+</span>
+<input name="email" id = "emailbox" placeholder = "youremail@example.com" >
+<span id = "entermsg">
+please write your message here :
+</span>
+<input type = "text" name="message" id = "msgbox" placeholder = "please write your message here">
+
+<input type = "submit" value = "send">
+
+</form>
+</div>
+</body>
+</html>
